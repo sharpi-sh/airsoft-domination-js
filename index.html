@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>TEAM REBAR DOMINATION SCRIPT</title>
+	<meta name="description" content="Airsoft position domination script">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta property="og:title" content="">
+	<meta property="og:type" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="theme-color" content="#fafafa">
+
+	<script>
+// Warning before leaving the page (back button, or outgoinglink)
+window.onbeforeunload = function() {
+   return "Do you really want to leave our brilliant application?";
+   //if we return nothing here (just calling return;) then there will be no pop-up question at all
+   //return;
+};
+</script>
+</head>
+
+<body>
+	<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+	<script src="js/vendor/jquery-3.5.1.min.js"></script>
+	<script src="js/vendor/jquery.cookie.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<div id="gameOver" style="display: none;">
+		<p>GAME OVER</p>
+		<button class="reset control-button">RESET</button>
+
+		<button id="mute" class="control-button">MUTE</button>
+	</div>
+
+
+	<div id="panel">
+
+		<strong style="color: #fff">POSITION HELD BY TEAM:</strong>
+
+		<div id="lcd">
+
+			UNCLAIMED
+
+		</div>
+
+		<div id="progressBar">
+  <div class="bar"></div>
+</div>
+
+		
+		
+
+		<div id="black" class="button shadow-inset" >
+			B
+		</div>
+
+
+		<div id="red" class="button shadow-inset">
+			R
+		</div>
+
+		<div id="timer"></div>
+
+		<button id="settingsBtn" class="control-button">Settings</button>
+
+		<div id="settings" style="display: none;" class="shadow-inset">
+			
+			<p id="lengthSet">Game Length:
+				<select id="gameLength">
+					<option value="15000">15 seconds</option>
+					<option value="1200000">20mins</option>
+					<option value="1800000">30mins</option>
+					<option value="2400000">40mins</option>
+					<option value="3600000">60mins</option>
+				</select>
+			</p>
+			<p>
+				<button id="startTimer" class="control-button">START TIMER</button>
+			</p>
+
+			<button id="pause" class="control-button">PAUSE SCORING: OFF</button>
+
+
+			<p>
+				<button class="reset control-button">RESET</button>
+
+
+				<p>
+
+
+					<div>
+
+					</div>
+
+
+
+				</body>
+
+				</html>
